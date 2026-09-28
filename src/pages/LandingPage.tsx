@@ -1,4 +1,5 @@
 import landingSvg from "../assets/landing page.svg";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -15,10 +16,15 @@ const LandingPage = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="text-black text-sm">Log in</button>
-          <button className="bg-black text-white px-4 py-2 rounded-full text-sm">
+          <Link to="/login" className="text-black text-sm hover:opacity-70 transition-opacity">
+            Log in
+          </Link>
+          <Link
+            to="/signup"
+            className="bg-black text-white px-4 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors"
+          >
             Get started
-          </button>
+          </Link>
         </div>
       </nav>
 
