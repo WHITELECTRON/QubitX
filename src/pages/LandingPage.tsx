@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
     <div className="relative w-full">
       <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-4 bg-white">
-        <div className="font-bold text-xl text-black">Cognix</div>
+        <div className="font-bold text-xl text-black">QubitX</div>
 
         <div className="flex gap-6 text-black text-sm">
           <a href="#">Product</a>
@@ -30,7 +30,7 @@ const LandingPage = () => {
 
       <img
         src={landingSvg}
-        alt="Cognix landing page"
+        alt="QubitX landing page"
         className="w-full block"
       />
     </div>

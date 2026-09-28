@@ -92,7 +92,7 @@ export default function OnboardingShell({
       {/* Footer */}
       <footer className="pb-6 text-center">
         <p className="text-[10px] font-semibold text-[#94A3B8] tracking-[1.8px] uppercase">
-          Cognix Quantum Platform
+          QubitX Quantum Platform
         </p>
       </footer>
     </div>

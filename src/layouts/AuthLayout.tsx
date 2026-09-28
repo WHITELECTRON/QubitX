@@ -22,7 +22,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
       {/* ── Footer ─────────────────────────────────────── */}
       <footer className="pb-8 text-center">
         <p className="text-[#64748B] text-[13px] leading-[27px] tracking-[0.09px]">
-          © 2025 Cognix Quantum Intelligence Systems. Secured by Hilbert Cryptography.
+          © 2025 QubitX Quantum Intelligence Systems. Secured by Hilbert Cryptography.
         </p>
       </footer>
     </div>

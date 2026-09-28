@@ -75,7 +75,7 @@ export default function Step2_Role({ onNext }: Props) {
       <div>
         <h1 className="text-[26px] font-bold text-[#0B1C30] leading-[34px] mb-2">
           What brings you to{" "}
-          <span className="text-[#7C3AED]">Cognix</span>?
+          <span className="text-[#7C3AED]">QubitX</span>?
         </h1>
         <p className="text-[14px] text-[#64748B] leading-[22px]">
           We tailor circuit challenges and mathematical depth to your context.

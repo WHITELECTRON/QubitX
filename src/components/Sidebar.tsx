@@ -171,7 +171,7 @@ export default function Sidebar() {
           {!collapsed && (
             <div className="min-w-0">
               <p className="text-[22px] font-bold text-slate-900 leading-tight">
-                Cognix
+                QubitX
               </p>
               <p className="text-[13px] text-slate-400 font-medium leading-tight">
                 Quantum Intelligence
