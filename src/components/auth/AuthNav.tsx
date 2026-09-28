@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /**
  * Navbar shown on auth pages (Signup, Login, Onboarding).
- * Design: Cognix wordmark + "AI-guided" pill on left · Help + Exit on right.
+ * Design: QubitX wordmark + "AI-guided" pill on left · Help + Exit on right.
  */
 export default function AuthNav() {
   return (
@@ -13,7 +13,7 @@ export default function AuthNav() {
           to="/"
           className="text-[22px] font-semibold text-[#0B1C30] leading-[37px] hover:opacity-80 transition-opacity"
         >
-          Cognix
+          QubitX
         </Link>
 
         {/* AI-guided pill */}
